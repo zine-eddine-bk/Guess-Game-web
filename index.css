@@ -1,0 +1,35 @@
+body{
+    background-image: url(images/gettyimages-513376890-612x612.jpg);
+    background-size: cover;
+}
+#guessgamediv{
+  border: 3px  ridge red;
+  padding: 10px;
+  padding-bottom: 100px;
+  margin-top: 50px;
+  display:grid;
+  background-color: beige;
+  text-align: center;
+}
+#guessgamelab{
+    font-family:cursive;
+    font-style:inherit;
+    font-size: 1.2em;
+}
+#guessgameent{
+    display:none;
+}
+#guessgameattumpcounter{
+    display: none;
+}
+.guessgamebutt{
+    padding:20px;
+    margin: 20px;
+}
+.guessgamebutt:hover{
+    background-color: rgba(255, 0, 0, 0.347);
+}
+#guessgameres{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgba(165, 42, 42, 0.698);
+}
